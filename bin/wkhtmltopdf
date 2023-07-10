@@ -10,7 +10,7 @@
 require 'rbconfig'
 require 'zlib'
 
-binary = "wkhtmlotopdf_debian_12_amd64"
+binary = "wkhtmltopdf_debian_12_amd64"
 
 if File.exist?("#{binary}.gz") && !File.exist?(binary)
   File.open binary, 'wb', 0o755 do |file|
